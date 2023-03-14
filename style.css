@@ -37,7 +37,8 @@ h1, h2, h3{
 header{
     background-image: linear-gradient(to top, rgba(0,128,77,1) 0%, rgba(35,173,109,1) 55%, rgba(112,255,196,1) 100%);
     text-shadow: 1px 1px black;
-    width: 100vw;
+    min-width: 600px;
+    width: auto;
 }
 
 header > h1{
@@ -110,7 +111,7 @@ main{
 
 .paragrafo{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 15px;
+    margin: 20px 15px;
     text-align: justify;
     text-indent: 30px;
     line-height: 1em;
